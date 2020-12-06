@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+/* red-	#a81c1f
+    blue - 	#24549e */
+
+html{
+    font-family: rubik, sans-serif;
+}
+
+body{
+    font-family: rubik, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/*Header*/
+header{
+    background: gray;
+    color: #000000;
+    
+    min-height: 70px;
+    border-bottom: #a81c1f 4px solid;
+}
+
+header a{
+    color: #000000 !important;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header nav ul li{
+    display: inline;
+    padding: 0 15px 0 15px;
+}
+  
+header .highlight, header .current a{
+    color: #24549e !important;
+    font-weight: bold;
+}
+  
+nav ul a:hover{
+    color :#cccccc !important;
+    text-decoration: none;
+}
+
+header .company{
+    font-size: 30px;
+}
+
+/*Logo*/
+.picture img{
+    width: 100%;
+    height: 30em;
+}
+.bg-blue{
+    background-color:#24549e;
+}
+.quote{
+    font-size:20px;
+}
+.quote p{
+    font-style: italic;
+}
+/*Images*/
+ .images img{
+    height: 230px !important;
+    width: 250px !important;
+}
+
+ .images img:hover{
+    transition: 0.2s;
+    transform: scale(1.03);
+    cursor: pointer;
+}
+.bg-red{
+    background-color:#a81c1f;
+}
+#speakers .col-md-3{
+    display: inline-block;
+    margin-left:-4px;
+  }
+#speakers .col-md-3 img{
+    width:100%;
+    height:auto;
+  }
+  body .carousel-indicators li{
+    background-color:#a81c1f;
+  }
+  body .carousel-indicators{
+    bottom:-40px;
+  }
+  body .carousel-control-prev-icon,
+  body .carousel-control-next-icon{
+    background-color:#a81c1f;
+  }
+.no-padding{
+    padding-left: 0;
+    padding-right: 0;
+     }
+
+.modal-body img{
+    height:200px;
+}
+/*Footer*/
+.root {
+    text-align: center;
+}
+
+.root li {
+    list-style: none;
+    margin-top: 8px;
+}
+
+.root li p{
+    color: white;
+}
+
+.root li a:hover{
+    color: white;
+}
+
+.root li i {
+    color: white;
+}
+
+.ic img{
+    height:40px;
+    border-radius: 50%;
+}
+.ic li{
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+footer .footer-logo{
+    width: 150px;
+    height: auto;
+}
+.adv a{
+    text-decoration: none;
+    color: white;
+}
+
+/*Footer ends*/
+
+/* About css */
+.about-section p{
+    font-size: 18px;
+}
+.about-heading{
+    border-bottom: 1px solid #a81c1f;
+}
+.help-section a{
+    text-decoration: none;
+    color: black;
+}
+.cmd-ceo{
+    height:250px;
+    width:250px;
+    border-radius:50%;
+}
